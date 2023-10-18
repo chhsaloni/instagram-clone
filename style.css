@@ -1,0 +1,98 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  height: 70%;
+  width: 20%;
+
+  border: 2px solid black;
+}
+.mar {
+  /* margin-left: 20px; */
+}
+
+.left img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.right-container {
+  height: 70%;
+  width: 20%;
+}
+
+.right {
+  height: 60%;
+  border: 2px solid black;
+}
+.logo {
+  /* border: 2px solid red; */
+
+  text-align: center;
+  height: 20%;
+}
+
+.logo img{
+
+    height: 80%;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+input[type="submit"]{
+  background-color: rgba(0, 149, 246);
+  /* border-radius: 4px; */
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  
+}
+input {
+  border: 1px solid black;
+  width: 98%;
+  height: 20%;
+  border-radius: 2px;
+  margin: 5px;
+}
+button {
+  height: 2rem;
+  width: 70%;
+ 
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  margin-top: 4px;
+}
+
+.signup {
+  height: 15%;
+  border: 2px solid black;
+  text-align: center;
+}
+.icons {
+  height: 24.5%;
+  /* border: 2px solid black; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get{
+
+    text-align: center;
+}
+
+.icons img{
+
+    height: 48%;
+    width: 45%;
+}
