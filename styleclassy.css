@@ -18,7 +18,7 @@ width: 30%;
 ul{
     display: flex;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.3rem;
     justify-content: space-evenly;
     /* align-items: space-around; */
 }
@@ -81,8 +81,11 @@ li{
 .price-box{
     height: 400px;
     width: 250px;
-    background: url("https://tse4.mm.bing.net/th?id=OIP.z_ilCv9sIs4AnOpF_9GB5AHaEo&pid=Api&P=0&h=180");
-    background-repeat: no-repeat;
+    background: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-03.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: 400px 250px; */
+    /* background-color: aqua; */
+    overflow: hidden;
     
 }
 .price{
@@ -94,8 +97,96 @@ li{
 }
 .info{
     
-    height: 200px;
+    height: 360px;
     width: 250px;
     background-color: red;
-    overflow: hidden;
+    position: relative;
+    margin-top: 300px;
+    transition: all 1s ease-out;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.info:hover{
+    translate: 0 -200px;
+}
+.chefs{
+    height: 100vh;
+
+}
+.chefs-bio{
+        display: flex;
+        justify-content: space-around;
+        /* height: 440px;
+        width: 410px;
+       */
+}
+.chef{
+    height: 400px;
+    width: 402px;
+   
+    border: 1px solid black;
+    /* text-align: end; */
+
+    
+}
+/* span p{
+    text-align: end;
+    margin-bottom: 20px;
+    color: azure;
+    text-align: center;
+} */
+
+.bg-box{
+   
+    background-color: black;
+    
+    height: 350px;
+    width: 400px;
+    opacity: 1;
+}
+.bg-box img{
+    height: 350px;
+    width: 400px;
+}
+
+.bg-box:hover{
+opacity: 0.2;
+}
+
+ /* i{
+    
+ 
+    top: 15rem;
+    left: 15rem;
+    position: relative;
+
+} */
+.contact{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+}
+.left{
+    position: relative;
+    top:4rem;
+    width: 40vw;
+    height: 80vh;
+    background-color: aqua;
+}
+.right{
+    position: relative;
+    top:4rem;
+    width: 40vw;
+    height: 80vh;
+    background-color:red;
+}
+input{
+    height: 10%;
+    width: 60%;
+    position: relative;
+    left: 20px;
 }
