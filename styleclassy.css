@@ -1,0 +1,101 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 20vh;
+    display: flex;
+    background-color: whitesmoke;
+}
+.logo{
+width: 30%;
+}
+.menubar{
+    width: 70%;
+    list-style: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    justify-content: space-evenly;
+    /* align-items: space-around; */
+}
+li{
+
+}
+.firstslide{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    height: 90vh;
+    width: 30%;
+    background-color:red ;
+    opacity: 0.8;
+    text-align: center;
+}
+
+
+.right{
+    height: 90vh;
+    width: 70%;
+}
+.carousel-item img{
+    height: 90vh;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.left-us{
+    height: 100vh;
+    width: 50vw;
+    /* text-align: center; */
+}
+.minicards{
+    display: flex;
+    justify-content: space-around;
+}
+.mini img{
+    /* background-color: aqua; */
+    height: 200px;
+    width: 200px;
+}
+
+.right-us{
+    height: 100vh;
+    width: 50vw;
+}
+.specialbox{
+    height: 100vh;
+
+}
+.cardss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.price-box{
+    height: 400px;
+    width: 250px;
+    background: url("https://tse4.mm.bing.net/th?id=OIP.z_ilCv9sIs4AnOpF_9GB5AHaEo&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    
+}
+.price{
+    background-color:red ;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    color: white;
+}
+.info{
+    
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    overflow: hidden;
+}
